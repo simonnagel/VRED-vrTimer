@@ -35,6 +35,6 @@ Simple Example on how to setup a driven key. The x Translation of the car is use
 
 ### vrTimer-actionBasedOnDistance:
 Simple Example on how create action based on distance between objects. In this scenario a variant is executed if certain distance values are reached
-![](vrTimer-actionBasedOnDistance.gif)
+![](vrTimer-actionBasedOndistance.gif)
 
 
