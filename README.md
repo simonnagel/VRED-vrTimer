@@ -19,6 +19,7 @@ def yourFunction():
 ```
 ### vrTimer-counter:
 Simple Example on how to use the counter to count until 100
+![](vrTimer-counter.gif)
 
 ### vrTimer-nextExample:
 
