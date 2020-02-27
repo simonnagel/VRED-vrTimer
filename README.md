@@ -17,16 +17,24 @@ timer.setActive(1)
 def yourFunction():
     print "test"
 ```
+
 ### vrTimer-counter:
 Simple Example on how to use the counter to count until 100
 ![](vrTimer-counter.gif)
+
 
 ### vrTimer-syncZPosToObj:
 Simple Example on how to sync the Z Position between two objects
 ![](vrTimer-syncZPosToObj.gif)
 
+
 ### vrTimer-drivenKey:
 Simple Example on how to setup a driven key. The x Translation of the car is used to calculated the Y Rotation of the Wheel.
 ![](vrTimer-drivenKey.gif)
+
+
+### vrTimer-actionBasedOnDistance:
+Simple Example on how create action based on distance between objects. In this scenario a variant is executed if certain distance values are reached
+![](vrTimer-actionBasedOnDistance.gif)
 
 
