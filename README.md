@@ -21,7 +21,9 @@ def yourFunction():
 Simple Example on how to use the counter to count until 100
 ![](vrTimer-counter.gif)
 
-### vrTimer-nextExample:
+### vrTimer-syncZPosToObj:
+Simple Example on how to sync the Z Position between two objects
+![](vrTimer-syncZPosToObj.gif)
 
 
 
