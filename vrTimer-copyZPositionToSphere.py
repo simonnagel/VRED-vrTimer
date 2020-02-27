@@ -11,12 +11,10 @@ box = findNode("Box")
 sphere = findNode("Sphere")
 
 timer = vrTimer()
-timer.connect("syncZPositionToSphere()")
+timer.connect("syncZPosToObj()")
 timer.setActive(1)
 
-def syncZPositionToSphere():
-    global box
-    global spehere
+def syncZPosToObj():
     positionBox = box.getWorldTranslation()
     
     boxX = positionBox[0]
