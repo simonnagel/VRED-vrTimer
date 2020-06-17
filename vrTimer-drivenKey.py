@@ -9,9 +9,7 @@ Accordingly, those configuration samples are provided “as is” with no warran
 
 import math
 
-timer = vrTimer()
-timer.connect("drivenKey()")
-timer.setActive(1)
+
 
 car = findNode("Car")
 tireFront = findNode("Tire_Front")
@@ -26,3 +24,6 @@ def drivenKey():
     tireRear.setRotation(0,tireRot,0)
     
  
+timer = vrTimer()
+timer.connect(drivenKey)
+timer.setActive(1)
